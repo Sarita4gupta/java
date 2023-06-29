@@ -16,6 +16,18 @@ class Main {
             for(int i=0; i<N; i++){
                 arr[i] = sc.nextInt();
             }
+              boolean isPresent = false;
+            for(int i=0; i<N; i++){
+                if(arr[i] == find_X){
+                    System.out.print(i+" ");
+                    isPresent = true;
+                }
+            }
+                if(!isPresent){
+                System.out.print("Not found");
+            }
+               System.out.println();
+               T--;
           
         }                           
     }
