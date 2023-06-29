@@ -1,1 +1,12 @@
+static int isPresent(long arr[], int n, long k)
+{
+  int low = 0;
+  int high = n-1;
+while (low<=high){
+ int mid = low+(high-low)/2;
+   if(arr[mid]==k){    
+     return 1;
 
+}
+}
+}
